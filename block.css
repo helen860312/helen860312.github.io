@@ -1,0 +1,32 @@
+.introduction{
+  float:left;
+  width: 60%;
+  background-color: powderblue;
+  color: black;
+  text-align: center;
+  height: 300px;
+}
+.choose{
+  width: 300px;
+  margin: auto;
+  background-color: grey;
+}
+.menu {
+  float:left;
+  width:40%;
+  text-align:center;
+  background-color: blue;
+  height: 300px;
+}
+
+.menu a {
+  background-color:blue;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .introduction {
+    width:100%;
